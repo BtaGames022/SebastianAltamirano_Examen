@@ -1,0 +1,41 @@
+#examen
+
+import numpy as np
+def Mostrar_ganancias_totales():
+  total_ganacias = sum(precio[departamento - 1 ] for departamento in departamentos_vendidos if departamento != 0)
+  print(f"Ganancias totales: ${Ganancias_totales} ")
+def Salir():
+  nombre = "Sebastian"
+  apellido = "Altamirano"
+  fecha_actual = "12-07-2023"
+  print(f"\nGracias por utilizar este programa que con cuea pa a funcionar una vez {nombre} {apellido}.")
+  print(f"\nFecha: {fecha_actual}. ")
+
+  def menu():
+    print("------Menu------")
+    print("1. Comprar departamento ")
+    print("2. Mostrar departamentos disponibles ")
+    print("3. Ver listado de compradores ")
+    print("4. Mostrar ganancias totales ")
+    print("5. Salir")
+  menu()
+opcion = int(input("Selecciona una opcion "))
+if opcion == 1:
+      Comprar_departamento == int(input("Comprar departamento "))
+      print("Comprar departamento ")
+    elif opcion == 2:
+      Mostrar_departamentos_disponibles == int(input("Mostrar departamentos disponibles "))
+      print("Mostrar departamentos disponibles ")
+    elif opcion == 3:
+      Ver_listado_de_compradores == int(input("Ver listado de compradores "))
+      print("Ver listado de compradores ")
+    elif opcion == 4:
+      Mostrar_ganancias_totales == int(input("Mostrar ganancias totales "))
+      print("Mostrar_ganancias_totales ")
+    elif opcion == 5:
+      Salir == int(input("a salido de la aplicacion "))
+      print("Salir ")
+    else
+    print("intentalo de nuevo vamos por ese 2.2 ")
+    break
+    
